@@ -1,0 +1,9 @@
+taxonomy_bulk_update.operations:
+  path: '/admin/structure/taxonomy_bulk_update'
+  defaults:
+    _form: '\Drupal\taxonomy_bulk_update\Form\TaxonomyUpdateForm'
+    _title: 'Bulk Update Taxonomy'
+  requirements:
+    _permission: 'access content'
+  options:
+     _admin_route: TRUE

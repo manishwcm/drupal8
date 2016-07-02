@@ -1,0 +1,5 @@
+name: Taxonomy Bulk Update
+description: 'Manages Taxonomy Add and Delete operations in Bulk.'
+package: Custom
+type: module
+core: 8.x
